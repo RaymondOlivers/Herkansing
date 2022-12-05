@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <title>Who we are</title>
+        <link rel="stylesheet" href="css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!--Header-->
+    <body class="body">
+        <header class="header">
+            <img src="Image-logo.png" alt="Logo" width="75px" height="75px">A life of harvest
+            <img src="Image-logo.png" alt="Logo" width="75px" height="75px">
+        </header>
+
+        <!--nav-->
+        <nav class="menu">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Page-Nodiggardening.html">Gardening</a></li>
+                <li><a href="Page-7layersofafoodforest.html">Food forest</a></li>
+                <li><a href="Page-Top5ediblemushrooms.html">Foraging</a></li>
+                <li><a href="Page-Whoweare.html">Who we are</a></li>
+                <li><a href="Page-Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!--Content-->
+            <h1>Contact us</h1>
+                <p class="contact">So you want to contact us? That's great! Please use the form below to write your message. We should get back to you within 2 working days. </p>
+
+            <!--Form-->
+            <div class="form">
+                <form name="contact" method="POST">
+                    <label>First Name</label>
+                    <input type="text" name="First name" required />
+
+                    <label>Email</label>
+                    <input type="email" name="email" required />
+
+                    <label>Phone</label>
+                    <input type="tel" name="phone" />
+                    <hr>
+
+                    Gender
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="male" />
+
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="female" />
+
+                    <hr>
+                    What is the category of your message?
+                    <label>Gardening</label>
+                    <input type="checkbox" name="Gardening" />
+
+                    <label>Food forest</label>
+                    <input type="checkbox" name="Food forest" />
+
+                    <label>Foraging</label>
+                    <input type="checkbox" name="Foraging" />
+
+                    <label>Other</label>
+                    <input type="checkbox" name="Other" />
+                    <hr>
+
+                    <label>Your message</label>
+                    <textarea name="message"></textarea>
+                    
+                    <hr>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Send it to us!</button>
+                </form>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer class="footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non animi, magnam distinctio possimus labore reiciendis quisquam excepturi temporibus ipsam quaerat delectus autem atque alias odit libero ex! Vero, minus.</p>
+            <p>Copyright &#169; 2022 - A life of harvest </p>
+        </footer>
+
+    </body>
+</html>
